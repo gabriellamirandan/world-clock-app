@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <title>Gabi's World Clock</title>
 </head>
-<body>
-    <h1>World Clock</h1>
 
-    <footer>This project was coded by <a href="https://github.com/gabriellamirandan" target="_blank">Gabi Miranda</a> and it's open sourced on <a href="https://github.com/gabriellamirandan/world-clock-app" target="_blank">Github</a></footer>
+<body>
+    <div class="container">
+        <h1>World Clock</h1>
+
+        <select name="city" id="">
+            <option value="">Select a city</option>
+            <option value="london">London</option>
+            <option value="new-york">New York</option>
+            <option value="Lisbon">Lisbon</option>
+            <option value="sydney">Sydney</option>
+        </select>
+
+        <div class="city">
+            <h2>Los Angeles 🇺🇸</h2>
+            <div class="date">March 7th 2025</div>
+            <div class="time">04:37 PM</div>
+        </div>
+        <div class="city">
+            <h2>Rio de Janeiro 🇧🇷</h2>
+            <div class="date">March 7th 2025</div>
+            <div class="time">04:37 PM</div>
+        </div>
+    </div>
+    <footer>This project was coded by <a href="https://github.com/gabriellamirandan" target="_blank">Gabi Miranda</a>
+        and it's open sourced on <a href="https://github.com/gabriellamirandan/world-clock-app"
+            target="_blank">Github</a></footer>
     <script src="src/index.js"></script>
 </body>
+
 </html>
