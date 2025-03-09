@@ -33,7 +33,10 @@ function updateCity(event) {
                     <div class="date">${cityTime.format("MMMM Do, YYYY")}</div>
                 </div>
                 <div class="time">${cityTime.format("hh:mm:ss [<small>]A[</small>]")}</div>
-            </div>`
+            </div>
+            <form action="/" class="form-button">
+    <input type="submit" value="🏠 Home" class="homepage-button"/>
+</form>`
 }
 
 updateTime();
