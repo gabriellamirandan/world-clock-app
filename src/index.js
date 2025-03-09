@@ -17,6 +17,15 @@ function updateTime() {
         rioDateElement.innerHTML = rioCurrentTime.format("MMMM Do, YYYY");
         rioTimeElement.innerHTML = rioCurrentTime.format("hh:mm:ss [<small>]A[</small>]");
     }
+    let lisbonElement = document.querySelector("#lisbon")
+    if (lisbonElement) {
+        let lisbonDateElement = lisbonElement.querySelector(".date")
+        let lisbonTimeElement = lisbonElement.querySelector(".time")
+        let lisbonCurrentTime = moment().tz("Europe/Lisbon");
+
+        lisbonDateElement.innerHTML = lisbonCurrentTime.format("MMMM Do, YYYY");
+        lisbonTimeElement.innerHTML = lisbonCurrentTime.format("hh:mm:ss [<small>]A[</small>]");
+    }
 }
 
 function updateCity(event) {
