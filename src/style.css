@@ -34,6 +34,15 @@ h1 {
     font-size: 50px;
 }
 
+.link-h1 {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
 select {
     display: block;
     width: 100%;
